@@ -1,24 +1,7 @@
-# README
+# FactoryBotで多対多を作るだけの習作
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- spec/factories/articles.rb にやりたかったことがある
+- traitで書いている
+- 今あるのはtagを新しく作るパターンのみ
+- `after(:build)`の中でTag.find_byでseedで作成したTagをつけるtraitを作成することも可能
+- モデルの関係・・・Article <---> Tagging <---> Tag
