@@ -1,4 +1,4 @@
-# FactoryBotで多対多を作るだけの習作
+# FactoryBotで多対多を作るだけ
 
 - spec/factories/articles.rb にやりたかったことがある
 - traitで書いている
